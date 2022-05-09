@@ -6,3 +6,56 @@
     padding: 0
     box-sizing: border-box
 
+body
+    background-color: variables.$bg-main
+    font-family: variables.$font
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+.main
+    width: 350px
+    background-color: variables.$bg-card
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    border-radius: 1rem
+    box-shadow: 2px 5px 8px #00000080
+
+    .img
+        border-radius: .5rem
+
+    h2
+        color: variables.$white
+    
+    p
+        color: variables.$soft-blue
+        font-weight: 300
+
+    &-section
+        display: flex
+        justify-content: space-between
+
+        &-div1,
+        &-div2 
+            display: flex
+            gap: .5rem
+        
+        &-div1 
+            .etherium
+                font-weight: 600
+                color: variables.$cyan
+        
+        &-div2 
+            p
+                width: 80px
+    
+    &-footer
+        display: flex
+        align-items: center
+        gap: 1rem
+
+        strong
+            color: variables.$white
