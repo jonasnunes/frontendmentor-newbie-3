@@ -1,4 +1,4 @@
-<h1 align="center">Front End Mentor Newbie 2</h1>
+<h1 align="center">Front End Mentor Newbie 3</h1>
 
 <h3>Tecnologias usadas:</h3>
 <p>HTML | CSS | SASS | JS</p>
